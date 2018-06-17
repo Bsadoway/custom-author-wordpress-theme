@@ -10,6 +10,38 @@ License URI: license.txt
 Tags: 
 -------------------------------------------------------------- */
 
+.nav-main{
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-social{
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-item {
+    font-family: 'Grandma-Bold';
+    font-size: 24px;
+    color: #474747;
+    text-decoration: none;
+}
+
+
+.nav-logo {
+    padding-top: 48px;
+}
+
+/* OLD */
+
 @font-face {
 	font-family: 'Grandma-Bold';
 	src: url('type/24DB70_0_0.eot');

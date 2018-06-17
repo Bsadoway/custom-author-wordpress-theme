@@ -6,3 +6,5 @@ bloginfo('name'); ?></title>
 	
 		
 </head>
+
+<?php include "navigation.php";?>
