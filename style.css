@@ -10,6 +10,7 @@ License URI: license.txt
 Tags: 
 -------------------------------------------------------------- */
 
+/* Navigation */
 .custom-nav {
   background-image: url(./images/navigation.png);
   background-repeat: no-repeat;
@@ -17,47 +18,52 @@ Tags:
   height: 200px;
 }
 
+.nav-main {
+  flex-wrap: nowrap;
+}
+
+.middle-nav {
+  margin: 0 100px;
+  visibility: hidden;
+}
+
+.right-nav-item {
+  margin-left: 40px;
+}
+
+.left-nav-item {
+  margin-right: 54px;
+}
+
 .main-nav {
-    top: 58px;
-    justify-content: center;
+  top: 53px;
+  justify-content: center;
 }
 
 .nav-social {
   width: 100%;
   justify-content: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 97px;
+  left: 412px;
 }
 
 .menu-item {
-
-  padding: 0 70px;
+  font-family: "Grandma-Bold";
+  font-size: 24px;
 }
 
 .menu-item a:link,
 a:visited {
-  font-family: "Grandma-Bold";
-  font-size: 24px;
   color: #474747;
   text-decoration: none;
 }
 
 .menu-item a:hover {
-  font-family: "Grandma-Bold";
-  font-size: 24px;
   color: #c6905c;
   text-decoration: none;
 }
 
-.menu-item-64 {
-    visibility: hidden;
-}
-
-.nav-logo {
-  padding-top: 48px;
-}
 
 /* OLD */
 

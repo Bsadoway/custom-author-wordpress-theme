@@ -21,6 +21,20 @@ function rachweb_register_menus() {
             'primary_menu' => __( 'Primary Menu', 'rachweb' ),
         )
     );
-    }
-    add_action( 'init', 'rachweb_register_menus' );
+}
+add_action( 'init', 'rachweb_register_menus' );
+
+function add_classes_on_li($classes, $item, $args) {
+    $classes[] = 'nav-item';
+    return $classes;
+} 
+add_filter('nav_menu_css_class','add_classes_on_li',1,3);
+
+  
+function add_classes_on_anchor( $atts, $item, $args ) {
+      $class = 'nav-link'; // or something based on $item
+      $atts['class'] = $class;
+      return $atts;
+   }
+add_filter( 'nav_menu_link_attributes', 'add_classes_on_anchor', 10, 3 );
 ?>
