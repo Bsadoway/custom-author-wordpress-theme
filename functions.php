@@ -15,5 +15,12 @@ function enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts');
 
-
+function rachweb_register_menus() {
+    register_nav_menus(
+        array(
+            'primary_menu' => __( 'Primary Menu', 'rachweb' ),
+        )
+    );
+    }
+    add_action( 'init', 'rachweb_register_menus' );
 ?>
