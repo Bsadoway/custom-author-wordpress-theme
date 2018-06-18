@@ -1,37 +1,24 @@
-<div class="">
-	<div class="custom-nav">
-
-		<?php wp_nav_menu( array(
-		'theme_location' => 'primary_menu',
-		'menu_class' => 'nav nav-main',
-		'container' => 'nav',
-		'container_class' => 'navbar navbar-expand-md main-nav',
-		'fallback_cb' => false
-		) ); ?>
-	<ul class="nav nav-social">
-		<li class="nav-item">
-			<a href="http://instagram.com/rkdelaney">
-				<img src="<?php bloginfo('stylesheet_directory');?>/images/instagram-flag.png" class="instagram-flag" title="Instagram" />
-			</a>
-		</li>
-		<li class="nav-item">
-			<a href="http://twitter.com/rkdelaney">
-				<img src="<?php bloginfo('stylesheet_directory');?>/images/twitter-flag.png" class="twitter-flag" title="Twitter" />
-			</a>
-		</li>
-		<li class="nav-item">
-			<a href="http://www.goodreads.com/author/show/2879536.Rachelle_Delaney">
-				<img src="<?php bloginfo('stylesheet_directory');?>/images/goodreads-flag.png" class="goodreads-flag" title="Good Reads"
-				/>
-			</a>
-		</li>
-	</ul>
-	</div>
+<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/rachelle-logo.png" alt="" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		    aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<?php wp_nav_menu(array(
+				'menu'              => 'primary',
+    			'theme_location' 	=> 'primary_menu',
+    			'menu_class' 		=> 'navbar-nav nav-main mr-auto',
+				'depth'             => 2,
+				'container'         => 'div',
+				'container_class'   => '',
+				'container_id'      => '',
+    			'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
+    			'walker' => new wp_bootstrap_navwalker(),
+			));?>
+		</div>
+	</nav>
 </div>
-<!-- <div class="header-nav">
-		
-<!-- END navigation-->
-
-
-
-<!-- END header-->

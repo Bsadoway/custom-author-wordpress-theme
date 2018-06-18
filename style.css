@@ -11,29 +11,12 @@ Tags:
 -------------------------------------------------------------- */
 
 /* Navigation */
-.custom-nav {
-  background-image: url(./images/navigation.png);
+/* .custom-nav {
+  background-image: url(./images/rachelle-logo.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-}
-
-.nav-main {
-  flex-wrap: nowrap;
-}
-
-.middle-nav {
-  margin: 0 100px;
-  visibility: hidden;
-}
-
-.right-nav-item {
-  margin-left: 40px;
-}
-
-.left-nav-item {
-  margin-right: 54px;
-}
+} */
 
 .main-nav {
   top: 53px;

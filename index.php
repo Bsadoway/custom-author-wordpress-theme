@@ -11,3 +11,4 @@
     wp_reset_postdata();     
     get_footer(); 
 ?>
+</div>

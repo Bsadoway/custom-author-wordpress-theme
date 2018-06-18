@@ -8,3 +8,4 @@ bloginfo('name'); ?></title>
 </head>
 
 <?php include "navigation.php";?>
+<div class="container">
