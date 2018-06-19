@@ -8,15 +8,11 @@ function enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_styles');
 function theme_js () {
-    /*jQuery Reference*/
     wp_deregister_script('jquery');
     wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', false, '3.1.1');
     wp_enqueue_script('jquery');
-    /*End*/
  
-    /*Bootstrap js reference*/
     wp_enqueue_script( 'bootstrapJS', get_template_directory_uri() . '/js/bootstrap.js', array(), '1.0.0', true );
-    /*End*/
  }
 add_action( 'init', 'theme_js' );
 
@@ -24,6 +20,7 @@ function rachweb_register_menus() {
     register_nav_menus(
         array(
             'primary_menu' => __( 'Primary Menu', 'rachweb' ),
+            'social_menu' => __( 'Social Menu', 'rachweb' ),
         )
     );
 }

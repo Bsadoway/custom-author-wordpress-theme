@@ -15,9 +15,23 @@ Tags:
   background-image: url(./images/rachelle-logo.png);
   background-repeat: no-repeat;
   background-position: center;
-  height: 200px;
+  height: 2
+  z00px;
 } */
-
+.nav-container {
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-main {
+  text-align: right;
+}
+.show {
+  transition: all 0.5s;
+  margin-top: 0 !important;
+}
+.nav-push {
+  margin-top: 100px;
+}
 .main-nav {
   top: 53px;
   justify-content: center;
@@ -46,7 +60,6 @@ a:visited {
   color: #c6905c;
   text-decoration: none;
 }
-
 
 /* OLD */
 
