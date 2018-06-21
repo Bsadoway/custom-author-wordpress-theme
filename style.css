@@ -72,7 +72,7 @@ a:visited {
 .instagram-icon,
 .email-icon,
 .goodreads-icon {
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin: 2px;
@@ -96,7 +96,6 @@ a:visited {
 }
 
 .img-border {
-  border: double #777 5px;
   padding: 5px;
 }
 
@@ -104,14 +103,18 @@ a:visited {
   font-size: 17px;
 }
 
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
+.col-sm {
+  min-width: 311px;
 }
-.row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+
+
+@media (max-width: 749px) {
+  .col-sm img {
+    margin: 0 auto;
+    display: block;
+  }
 }
+
 /* OLD */
 
 @font-face {
