@@ -139,6 +139,10 @@ a:visited {
   height: 200px;
 }
 
+.contact-header {
+  padding: 20px 0 40px 0;
+}
+
 @media (max-width: 1190px) {
   .book-list {
     flex-direction: row;
@@ -1036,14 +1040,8 @@ position:inherit;
 }
 
 #contact-header {
-  width: 987px;
-  clear: both;
-  height: 15px;
-  margin: 20px auto;
-  padding: 0;
   background-image: url(images/titlelines-contact.png);
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: center;
   position: relative;
 }
