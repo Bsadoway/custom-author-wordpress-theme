@@ -94,6 +94,24 @@ a:visited {
     background-size: 100% 2px, auto;
   }
 }
+
+.img-border {
+  border: double #777 5px;
+  padding: 5px;
+}
+
+.p-home {
+  font-size: 17px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
 /* OLD */
 
 @font-face {
