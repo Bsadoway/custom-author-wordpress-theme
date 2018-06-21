@@ -13,6 +13,7 @@ Tags:
 /* Navigation */
 
 .nav-container {
+  background-color: rgba(255, 255, 255, 0.5);
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -108,15 +109,29 @@ a:visited {
 }
 
 /* Other books css */
+.other-books-container {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 .other-books-title {
+  padding: 25px 25px 0px 25px;
   text-align: center;
 }
+
 .book-list {
+  padding: 0 15px;
   list-style: none;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+.book-thumbnail {
+  margin: 0 auto;
+  padding: 10px;
+  width: 235px;
+}
+
 .book-thumbnail img {
   margin: 0 auto;
   display: block;
@@ -124,14 +139,14 @@ a:visited {
   height: 200px;
 }
 
-@media (max-width: 1185px) {
+@media (max-width: 1190px) {
   .book-list {
-    flex-direction: row;  
+    flex-direction: row;
     justify-content: center;
   }
 }
 
-@media (max-width: 749px) {
+@media (max-width: 760px) {
   .col-sm img {
     margin: 0 auto;
     display: block;
