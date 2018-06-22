@@ -13,6 +13,8 @@ function theme_js () {
     wp_enqueue_script('jquery');
  
     wp_enqueue_script( 'bootstrapJS', get_template_directory_uri() . '/js/bootstrap.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'twitter', get_template_directory_uri() . '/js/twitter.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'twitter-helper', get_template_directory_uri() . '/js/twitter-helper.js', array(), '1.0.0', true );
  }
 add_action( 'init', 'theme_js' );
 
