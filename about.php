@@ -3,9 +3,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-
-            <div id="about-rachelle">
-                <div id="about-header">
+            <div>
+                <div>
                     <h1 class="rachelle-h1">ABOUT RACHELLE</h1>
                 </div>
                 <?php $image = get_field('about_rachelle_image'); ?>
