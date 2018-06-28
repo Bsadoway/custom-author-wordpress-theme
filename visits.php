@@ -48,9 +48,24 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="center-text">
-            <?php the_field('reminder_text');?>
+    <div class="row cta">
+        <div class="">
+            <p>
+                Educators! Download your teacher’s guide for:
+            </p>
+            <?php 
+
+            $file = get_field('download_link');
+
+            if( $file ): ?>
+
+            <a class="btn dwn-button" href="<?php echo $file['url']; ?>">
+                <i class="fas fa-download dwn-icon icon-l"></i>
+                <?php the_field('download_title');?>
+                <i class="fas fa-file-pdf dwn-icon icon-r"></i>
+                <?php echo $file['filename']; ?>
+            </a>
+            <?php endif; ?>
         </div>
     </div>
 </div>

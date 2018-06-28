@@ -88,10 +88,6 @@ a:visited {
   transform: translateY(-50%);
 }
 
-.center-text p {
-  
-}
-
 .img-feature {
   margin: auto;
   border: 1px solid #f0f0f0;
@@ -197,6 +193,36 @@ a:visited {
   padding-top: 10px;
 }
 
+.cta {
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.dwn-button {
+  background: #fb897b;
+  color: #fff!important;
+  border: 1px solid #fa5c47;
+}
+
+.dwn-button:hover {
+  background: #fa5c47;
+}
+.dwn-button p {
+  padding-left: 10px;
+}
+
+.dwn-icon {
+}
+.icon-l {
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+}
+.icon-r {
+  padding-left: 10px;
+}
 /* OLD */
 
 @font-face {
