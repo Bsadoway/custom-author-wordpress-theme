@@ -56,31 +56,6 @@ a:visited {
   text-decoration: none;
 }
 
-.twitter-icon {
-  background-image: url(./images/twitter-logo.svg);
-}
-.instagram-icon {
-  background-image: url(./images/instagram-logo.svg);
-}
-.email-icon {
-  background-image: url(./images/email-logo.svg);
-}
-.goodreads-icon {
-  background-image: url(./images/goodreads-logo.svg);
-}
-
-.twitter-icon,
-.instagram-icon,
-.email-icon,
-.goodreads-icon {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin: 2px;
-  width: 20px;
-  height: 20px;
-}
-
 @media (min-width: 979px) {
   .main-nav-item {
     background-image: linear-gradient(#474747, #474747),
@@ -145,7 +120,6 @@ a:visited {
 }
 
 .books-header,
-.in-person-header,
 .center-text {
   text-align: center;
 }

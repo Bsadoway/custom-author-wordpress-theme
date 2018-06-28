@@ -5,12 +5,12 @@
 <div class="container">
     <h1 class="in-person-header">IN PERSON</h1>
     <div class="row">
+        <div class="col-sm">
+            <?php the_field('in_person_text');?>
+        </div>
         <div class="col-sm flex">
             <?php $image = get_field('in_person_image'); ?>
             <img class="img-feature" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-        </div>
-        <div class="col-sm">
-            <?php the_field('in_person_text');?>
         </div>
     </div>
     <div class="row">
