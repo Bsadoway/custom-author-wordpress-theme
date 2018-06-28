@@ -10,18 +10,14 @@
             <h3>
                 <?php the_field('contact_info_title');?>
             </h3>
-            <p>
-                <?php the_field('contact_info_text');?>
-            </p>
+            <?php the_field('contact_info_text');?>
         </div>
 
         <div class="col-md">
             <h3>
                 <?php the_field('contact_form_title');?>
             </h3>
-            <p>
-                <?php the_field('contact_form_text');?>
-            </p>
+            <?php the_field('contact_form_text');?>
         </div>
     </div>
 </div>

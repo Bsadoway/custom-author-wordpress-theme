@@ -41,4 +41,11 @@ function add_classes_on_anchor( $atts, $item, $args ) {
       return $atts;
    }
 add_filter( 'nav_menu_link_attributes', 'add_classes_on_anchor', 10, 3 );
+
+
+function enqueue_load_fa() {
+    wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
+
 ?>
