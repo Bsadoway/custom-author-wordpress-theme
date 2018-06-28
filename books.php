@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <div class="container">
 
-    <h1 class="header">BOOKS</h1>
+    <h1 class="books-header">BOOKS</h1>
 
     <div class="row">
         <?php the_field('book_gallery') ?>

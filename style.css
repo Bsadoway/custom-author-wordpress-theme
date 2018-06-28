@@ -96,6 +96,14 @@ a:visited {
   }
 }
 
+.flex {
+  display: flex;
+}
+
+.img-feature {
+  margin: auto;
+}
+
 .img-padding {
   padding: 5px;
 }
@@ -111,6 +119,9 @@ a:visited {
 /* Other books css */
 .other-books-container {
   background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 .other-books-title {
@@ -118,11 +129,13 @@ a:visited {
   text-align: center;
 }
 
-.contact-header {
+.contact-header,
+.books-header,
+.homepage-spc {
   padding: 20px 0 40px 0;
 }
 
-.about-img{
+.about-img {
   width: 200px;
 }
 
@@ -130,10 +143,9 @@ a:visited {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.header {
+.books-header {
   text-align: center;
 }
-
 
 @media (max-width: 760px) {
   .col-sm img {
