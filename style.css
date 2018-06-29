@@ -203,7 +203,7 @@ a:visited {
 
 .dwn-button {
   background: #fb897b;
-  color: #fff!important;
+  color: #fff !important;
   border: 1px solid #fa5c47;
 }
 
@@ -227,6 +227,12 @@ a:visited {
 .book-img {
   width: 360px;
 }
+
+.one-test {
+  margin: auto;
+  width: 50%;
+}
+
 /* OLD */
 
 @font-face {

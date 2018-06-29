@@ -28,51 +28,55 @@
         <?php 
 
         $test = get_field('testimonial_quote_text');
+        $test2 = get_field('testimonial_quote_text2');
 
         if( $test ): ?>
 
-        <div class="col-sm">
+        <div class="col-md">
+            <?php if ($test && $test2): ?>
             <div class="testimonial-container">
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left pad-icon"></i>
-                        </div>
-                        <div class="description">
-                            <?php the_field('testimonial_quote_text');?>
+            <?php else: ?>
+            <div class="testimonial-container one-test">
+            <?php endif; ?>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left pad-icon"></i>
+                            </div>
+                            <div class="description">
+                                <?php the_field('testimonial_quote_text');?>
+                            </div>
                         </div>
                     </div>
+                    <?php the_field('testimonial_quote_person');?>
                 </div>
-                <?php the_field('testimonial_quote_person');?>
             </div>
-        </div>
-        <?php endif; ?>
+            <?php endif; ?>
 
-        <?php 
+            <?php 
 
-        $test2 = get_field('testimonial_quote_text2');
 
         if( $test2 ): ?>
-        <div class="col-sm">
-            <div class="testimonial-container">
+            <div class="col-md">
+                <div class="testimonial-container">
 
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left pad-icon"></i>
-                        </div>
-                        <div class="description">
-                            <?php the_field('testimonial_quote_text2');?>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left pad-icon"></i>
+                            </div>
+                            <div class="description">
+                                <?php the_field('testimonial_quote_text2');?>
+                            </div>
                         </div>
                     </div>
+                    <?php the_field('testimonial_quote_person2');?>
                 </div>
-                <?php the_field('testimonial_quote_person2');?>
             </div>
+            <?php endif; ?>
         </div>
-        <?php endif; ?>
+
+
     </div>
 
-
-</div>
-
-<?php get_footer(); ?>
+    <?php get_footer(); ?>
