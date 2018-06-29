@@ -223,6 +223,10 @@ a:visited {
 .icon-r {
   padding-left: 10px;
 }
+
+.book-img {
+  width: 360px;
+}
 /* OLD */
 
 @font-face {
