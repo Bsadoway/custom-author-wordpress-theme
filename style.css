@@ -233,6 +233,17 @@ a:visited {
   width: 50%;
 }
 
+.footer-row {
+  margin-top: 20px;
+  height: 150px;
+  background-color: #fff;
+
+}
+
+.footer-col img {
+  width: 200px;
+}
+
 /* OLD */
 
 @font-face {

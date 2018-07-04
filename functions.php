@@ -23,6 +23,7 @@ function rachweb_register_menus() {
         array(
             'primary_menu' => __( 'Primary Menu', 'rachweb' ),
             'social_menu' => __( 'Social Menu', 'rachweb' ),
+            'social_footer' => __( 'Social Footer Menu', 'rachweb' ),
         )
     );
 }
