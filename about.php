@@ -5,7 +5,7 @@
         <div class="col-md">
             <div>
                 <div>
-                    <h1 class="rachelle-h1">ABOUT RACHELLE</h1>
+                    <h1>About Rachelle</h1>
                 </div>
                 <?php $image = get_field('about_rachelle_image'); ?>
                 <img class="img-padding about-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />

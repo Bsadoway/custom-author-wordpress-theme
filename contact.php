@@ -3,9 +3,9 @@
 
 <div class="container">
     <div class="contact-header">
-        <h1 class="text-center">CONTACT RACHELLE</h1>
+        <h1 class="text-center">Contact Rachelle</h1>
     </div>
-    <div class="row justify-content-md-center">
+    <div class="row center-content">
 
         <div class="col-md-auto">
             <h3>

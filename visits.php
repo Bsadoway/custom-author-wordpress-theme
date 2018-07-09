@@ -3,10 +3,12 @@
 
 
 <div class="container">
-    <h1 class="in-person-header">IN PERSON</h1>
+    <h1 class="in-person-header">In Person</h1>
     <div class="row white-bg padding-50">
         <div class="col-sm">
+            <i class="fas fa-user-circle fa-3x"></i>
             <div class="center-text in-person-text">
+
                 <?php the_field('in_person_text');?>
             </div>
         </div>
