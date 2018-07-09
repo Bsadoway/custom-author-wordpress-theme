@@ -12,16 +12,22 @@
             <?php $image = get_field('book_image'); ?>
             <img class="img-padding img-feature book-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
         </div>
-        <div class="col-md">
+        <div class="col-md book-text">
             <?php the_field('book_description') ?>
             <?php 
             $text = get_field('awards_text');
             if( $text ): ?>
             <div>
-                <?php the_field('awards_text') ?>
+                <div class="awards-wrapper">
+                    <i class="fa-3x awards-icon fas fa-award"></i>
+                    <?php the_field('awards_text') ?>
+                </div>
             </div>
             <?php endif; ?>
         </div>
+    </div>
+    <div class="row">
+        <?php the_field('goodreads') ?>
     </div>
 
     <div class="row buffer">
@@ -35,9 +41,9 @@
         <div class="col-md">
             <?php if ($test && $test2): ?>
             <div class="testimonial-container">
-            <?php else: ?>
-            <div class="testimonial-container one-test">
-            <?php endif; ?>
+                <?php else: ?>
+                <div class="testimonial-container one-test">
+                    <?php endif; ?>
                     <div class="testimonial">
                         <div class="testimonial-content">
                             <div class="testimonial-icon">

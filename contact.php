@@ -3,19 +3,13 @@
 
 <div class="container">
     <div class="contact-header">
-        <h1 class="contact-h1">CONTACT RACHELLE</h1>
+        <h1 class="text-center">CONTACT RACHELLE</h1>
     </div>
-    <div class="row">
-        <div class="col-md">
+    <div class="row justify-content-md-center">
+
+        <div class="col-md-auto">
             <h3>
                 <?php the_field('contact_info_title');?>
-            </h3>
-            <?php the_field('contact_info_text');?>
-        </div>
-
-        <div class="col-md">
-            <h3>
-                <?php the_field('contact_form_title');?>
             </h3>
             <?php the_field('contact_form_text');?>
         </div>
