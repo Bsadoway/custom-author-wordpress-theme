@@ -20,6 +20,16 @@ Tags:
 .nav-main {
   text-align: right;
 }
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  text-align: center;
+}
+
 .show {
   transition: all 0.5s;
   margin-top: 0 !important;
