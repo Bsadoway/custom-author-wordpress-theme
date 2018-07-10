@@ -13,8 +13,6 @@ function theme_js () {
     wp_enqueue_script('jquery');
  
     wp_enqueue_script( 'bootstrapJS', get_template_directory_uri() . '/js/bootstrap.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'twitter', get_template_directory_uri() . '/js/twitter.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'twitter-helper', get_template_directory_uri() . '/js/twitter-helper.js', array(), '1.0.0', true );
  }
 add_action( 'init', 'theme_js' );
 
@@ -37,7 +35,7 @@ add_filter('nav_menu_css_class','add_classes_on_li',1,3);
 
   
 function add_classes_on_anchor( $atts, $item, $args ) {
-      $class = 'nav-link'; // or something based on $item
+      $class = 'nav-link'; 
       $atts['class'] = $class;
       return $atts;
    }

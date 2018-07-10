@@ -19,19 +19,8 @@
                 <?php the_field('twitter_field'); ?>
             </h3>
             <div class="twitter-body">
-                <a class="twitter-timeline" href="https://twitter.com/rkdelaney" data-widget-id="364496309341798401">Tweets by @rkdelaney</a>
-                <script>
-                    ! function (d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0],
-                            p = /^http:/.test(d.location) ? 'http' : 'https';
-                        if (!d.getElementById(id)) {
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = p + "://platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }
-                    }(document, "script", "twitter-wjs");
-                </script>
+                <a class="twitter-timeline" data-height="600" data-theme="light" href="https://twitter.com/rkdelaney?ref_src=twsrc%5Etfw">Tweets by Rachelle</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
