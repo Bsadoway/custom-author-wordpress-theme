@@ -7,7 +7,7 @@
             </div>
             <div class="col-sm footer-col">
                 <h4>Contact Rachelle</h4>
-                <p>email@email.com</p>
+                <p>rachelledelaney@gmail.com</p>
             </div>
             <div class="col-sm footer-col">
                 <div class="" id="navbarSupportedContent">

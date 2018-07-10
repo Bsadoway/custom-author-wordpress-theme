@@ -1,13 +1,13 @@
 <?php /* Template Name: books */ ?>
 <?php get_header(); ?>
 <div class="container">
-    <div class="row center-content">
+    <div class="row center-content expand-top">
         <i class="fas fa-book-open fa-4x"></i>
     </div>
     <div class="row center-content">
-        <h1 class="books-header">Rachelles Books</h1>
+        <h1 class="books-header">Rachelle's Books</h1>
     </div>
-    <div class="row">
+    <div class="row bg-white buffer">
         <?php the_field('book_gallery') ?>
     </div>
 </div>

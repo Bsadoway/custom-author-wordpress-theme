@@ -15,26 +15,12 @@
     				'menu_class' 		=> 'navbar-nav nav-main mr-auto',
 					'depth'             => 2,
 					'container'         => 'div',
-					'container_class'   => 'mr-auto',
-					'container_id'      => '',
-    				'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
-    				'walker' 			=> new wp_bootstrap_navwalker(),
-				));?>
-			</div>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<?php wp_nav_menu(array(
-					'menu'              => 'social',
-    				'theme_location' 	=> 'social_menu',
-    				'menu_class' 		=> 'navbar-nav nav-main ml-auto',
-					'depth'             => 2,
-					'container'         => 'div',
 					'container_class'   => 'ml-auto',
 					'container_id'      => '',
     				'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
     				'walker' 			=> new wp_bootstrap_navwalker(),
 				));?>
 			</div>
-			
 		</nav>
 	</div>
 </div>
