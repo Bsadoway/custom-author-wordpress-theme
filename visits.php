@@ -3,8 +3,11 @@
 
 
 <div class="container">
-    <h1 class="in-person-header">In Person</h1>
-    <div class="container-fluid white-bg padding-50">
+    <div class="row in-person-header">
+        <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Geography.png" alt="" />
+        <h1 class="">In Person</h1>
+    </div>
+    <div class="white-bg padding-50">
         <div class="row">
             <?php $image = get_field('in_person_image'); ?>
             <img class="img-feature in-person-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />

@@ -5,6 +5,8 @@
 
     <h1 class="books-header">
         <?php the_field('book_header') ?>
+        <?php $image = get_field('book_icon'); ?>
+            <img class="book-icon" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
     </h1>
 
     <div class="row">
@@ -17,11 +19,10 @@
             <?php 
             $text = get_field('awards_text');
             if( $text ): ?>
-            <div>
-                <div class="awards-wrapper">
-                    <i class="fa-3x awards-icon fas fa-award"></i>
-                    <?php the_field('awards_text') ?>
-                </div>
+            <div class="awards-wrapper">
+                <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Bookmark_Red.png" alt="" />
+
+                <?php the_field('awards_text') ?>
             </div>
             <?php endif; ?>
         </div>

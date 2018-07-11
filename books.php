@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <div class="container">
     <div class="row center-content expand-top">
-        <i class="fas fa-book-open fa-4x"></i>
+        <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Open_Book.png" alt="" />
     </div>
     <div class="row center-content">
         <h1 class="books-header">Rachelle's Books</h1>
