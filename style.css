@@ -9,7 +9,6 @@ License:
 License URI: license.txt
 Tags: 
 -------------------------------------------------------------- */
-
 /* Navigation */
 
 .nav-container {
@@ -138,18 +137,26 @@ a:visited {
 
 .contact-header,
 .books-header,
+.book-header,
 .homepage-spc,
-.in-person-header {
-  padding: 20px 0 40px 0;
+.in-person-header,
+.about-header {
+  padding: 20px 0;
 }
 
 .books-icon {
-  height: 150px;
+  max-height: 150px;
+}
+.about-container {
+  text-align: center;
+}
+.about-img {
+  width: 233px;
+  z-index: 5;
+  position: relative;
+  padding-bottom: 51px;
 }
 
-.about-img {
-  width: 200px;
-}
 
 .twitter-timeline {
   width: 350px !important;
@@ -162,6 +169,10 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.book-header {
+  margin: 40px;
 }
 
 .books-header {
@@ -187,7 +198,11 @@ a:visited {
 .white-bg {
   background-color: #fff;
 }
-.in-person-header, .contact-header {
+.in-person-header,
+.contact-header,
+.about-header,
+.books-header,
+.book-header  {
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -199,7 +214,7 @@ a:visited {
 }
 
 .in-person-img {
-  min-height: 400px;
+  max-height: 400px;
   width: 80%;
 }
 

@@ -2,12 +2,13 @@
 <?php get_header(); ?>
 
 <div class="container">
-
-    <h1 class="books-header">
-        <?php the_field('book_header') ?>
-        <?php $image = get_field('book_icon'); ?>
+    <div class="book-header row bg-white">
+        <h1>
+            <?php $image = get_field('book_icon'); ?>
             <img class="book-icon" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-    </h1>
+            <?php the_field('book_header') ?>
+        </h1>
+    </div>
 
     <div class="row">
         <div class="col-md flex">

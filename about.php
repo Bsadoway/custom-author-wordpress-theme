@@ -1,18 +1,17 @@
 <?php /* Template Name: about */ ?>
 <?php get_header(); ?>
 <div class="container">
+    <div class="row about-header">
+        <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/History.png" alt="" />
+        <h1 class="">About Rachelle</h1>
+    </div>
     <div class="row">
-        <div class="col-md">
-            <div>
-                <div>
-                    <h1>About Rachelle</h1>
-                </div>
-                <?php $image = get_field('about_rachelle_image'); ?>
-                <img class="img-padding about-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                <p class="rachelle-p">
-                    <?php the_field('about_rachelle_text');?>
-                </p>
-            </div>
+        <div class="col-md bg-white padding-50 about-container">
+            <?php $image = get_field('about_rachelle_image'); ?>
+            <img class="img-padding about-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+            <p class="rachelle-p">
+                <?php the_field('about_rachelle_text');?>
+            </p>
         </div>
         <div class="col-md">
             <h3 class="twitter-header">
