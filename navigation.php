@@ -12,7 +12,7 @@
 				<?php wp_nav_menu(array(
 					'menu'              => 'primary',
     				'theme_location' 	=> 'primary_menu',
-    				'menu_class' 		=> 'navbar-nav mx-auto',
+    				'menu_class' 		=> 'navbar-nav nav-main mx-auto',
 					'depth'             => 2,
 					'container'         => 'div',
 					'container_class'   => 'mx-auto',

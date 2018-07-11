@@ -4,17 +4,17 @@
 
 <div class="container">
     <h1 class="in-person-header">In Person</h1>
-    <div class="row white-bg padding-50">
-        <div class="col-sm">
-            <i class="fas fa-user-circle fa-3x"></i>
-            <div class="center-text in-person-text">
-
-                <?php the_field('in_person_text');?>
-            </div>
-        </div>
-        <div class="col-sm flex">
+    <div class="container-fluid white-bg padding-50">
+        <div class="row">
             <?php $image = get_field('in_person_image'); ?>
-            <img class="img-feature" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+            <img class="img-feature in-person-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="center-text in-person-text">
+                    <?php the_field('in_person_text');?>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row buffer">
