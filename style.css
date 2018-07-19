@@ -222,6 +222,17 @@ a:visited {
   flex-direction: column;
 }
 
+.in-person-header::after,
+.contact-header::after,
+.about-header::after,
+.books-header::after,
+.book-header::after {
+  width: 80px;
+  content: "";
+  border-bottom: 4px solid #fa5c47;
+  
+}
+
 .in-person-text p {
   font-size: 16px;
   padding-top: 40px;
@@ -320,12 +331,17 @@ a:visited {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.book-text {
+  padding: 25px;
+
+}
 .book-text p {
   font-size: 18px;
 }
 
 .awards-wrapper {
   background-color: #fff;
+  border: #fdfdfd 2px solid;
   padding: 15px;
   margin-top: 50px;
   margin-bottom: 20px;

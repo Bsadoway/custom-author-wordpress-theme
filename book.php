@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-    <div class="book-header row bg-white">
+    <div class="book-header row">
         <h1 style="margin: 0;">
             <?php the_field('book_header') ?>
         </h1>
@@ -13,7 +13,7 @@
             <?php $image = get_field('book_image'); ?>
             <img class="img-padding img-feature book-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
         </div>
-        <div class="col-md book-text">
+        <div class="col-md book-text bg-white">
             <?php the_field('book_description') ?>
 
             <?php 
