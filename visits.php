@@ -4,7 +4,6 @@
 
 <div class="container">
     <div class="row in-person-header">
-        <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Geography.png" alt="" />
         <h1 class="">In Person</h1>
     </div>
     <div class="white-bg padding-50">

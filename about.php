@@ -2,7 +2,6 @@
 <?php get_header(); ?>
 <div class="container">
     <div class="row about-header">
-        <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/History.png" alt="" />
         <h1 class="">About Rachelle</h1>
     </div>
     <div class="row">

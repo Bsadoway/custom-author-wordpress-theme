@@ -6,8 +6,15 @@
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/rachelle-logo-red-small.png" alt="" />
             </div>
             <div class="col-sm footer-col">
-                <h4>Contact Rachelle</h4>
-                <p>rachelledelaney@gmail.com</p>
+                <h3>Contact Rachelle:</h3>
+                <div class="menu-item">
+                    <a href="">
+                        <i class="far fa-envelope">
+                        </i>
+                        rachelledelaney@gmail.com
+
+                    </a>
+                </div>
             </div>
             <div class="col-sm footer-col">
                 <div class="" id="navbarSupportedContent">

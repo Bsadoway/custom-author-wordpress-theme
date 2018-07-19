@@ -3,7 +3,6 @@
 
 <div class="container">
     <div class="row contact-header">
-        <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Journal.png" alt="" />
         <h1 class="text-center">Contact Rachelle</h1>
     </div>
     <div class="row center-content">

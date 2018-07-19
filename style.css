@@ -1,10 +1,7 @@
 /*
 Theme Name: Rachelle
 Theme URI: 
-Author: Laura Lefurgey-Smith
-Author URI: http://www.lauralefurgeysmith.com
 Description: 
-Version: 1.0
 License:
 License URI: license.txt
 Tags: 
@@ -61,7 +58,7 @@ a:visited {
 }
 
 .menu-item a:hover {
-  color: #c6905c;
+  color: #fa5c47;
   text-decoration: none;
 }
 
@@ -399,39 +396,21 @@ p {
   line-height: 140%;
 }
 
-p a:link {
-  color: #ae693d;
+a:link {
+  color: #444;
   text-decoration: none;
 }
 
-p a:visited {
-  color: #ae693d;
+a:visited {
+  color: #000;
   text-decoration: none;
 }
 
-p a:hover {
-  color: #c9b2a6;
+a:hover {
+  color: #fa5c47;
   text-decoration: none;
 }
 
-em {
-  font-family: "AsapItalic";
-}
-
-h3 a:link {
-  color: #ae693d;
-  text-decoration: none;
-}
-
-h3 a:visited {
-  color: #ae693d;
-  text-decoration: none;
-}
-
-h3 a:hover {
-  color: #c9b2a6;
-  text-decoration: none;
-}
 
 h1,
 h2,
