@@ -6,17 +6,8 @@
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/rachelle-logo-red-small.png" alt="" />
             </div>
             <div class="col-sm footer-col">
-                <h3>Contact Rachelle:</h3>
-                <div class="menu-item">
-                    <a href="">
-                        <i class="far fa-envelope">
-                        </i>
-                        rachelledelaney@gmail.com
+            <h4 class="about-container">Contact Rachelle</h4>
 
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm footer-col">
                 <div class="" id="navbarSupportedContent">
                     <?php wp_nav_menu(array(
 					'menu'              => 'social2',

@@ -26,6 +26,8 @@ Tags:
   text-align: center;
 }
 
+
+
 .show {
   transition: all 0.5s;
   margin-top: 0 !important;
@@ -77,8 +79,13 @@ a:visited {
   }
 }
 
+#menu-social-links-footer li a {
+  font-size: 18px;
+}
+
 .flex {
   display: flex;
+  flex-direction: column;
 }
 .buffer {
   padding-top: 40px;
@@ -154,7 +161,6 @@ a:visited {
   padding-bottom: 51px;
 }
 
-
 .twitter-timeline {
   width: 350px !important;
 }
@@ -181,6 +187,17 @@ a:visited {
   color: #fa5c47;
 }
 
+.book-links {
+  height: 40px;
+}
+
+.buy-now-links {
+  text-align: right;
+}
+
+.buy-now-links a {
+  padding: 0 20px;
+}
 @media (max-width: 760px) {
   .col-sm img {
     margin: 0 auto;
@@ -199,7 +216,7 @@ a:visited {
 .contact-header,
 .about-header,
 .books-header,
-.book-header  {
+.book-header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -298,7 +315,7 @@ a:visited {
 }
 
 .book-img {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   width: 360px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -311,6 +328,7 @@ a:visited {
   background-color: #fff;
   padding: 15px;
   margin-top: 50px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +350,9 @@ a:visited {
   background-color: #fff;
 }
 .footer-col {
-  text-align: left;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 @media (max-width: 760px) {
   .footer-col {
@@ -410,7 +430,6 @@ a:hover {
   color: #fa5c47;
   text-decoration: none;
 }
-
 
 h1,
 h2,

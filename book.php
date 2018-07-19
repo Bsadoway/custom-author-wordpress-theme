@@ -3,9 +3,7 @@
 
 <div class="container">
     <div class="book-header row bg-white">
-        <h1>
-            <?php $image = get_field('book_icon'); ?>
-            <img class="book-icon" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+        <h1 style="margin: 0;">
             <?php the_field('book_header') ?>
         </h1>
     </div>
@@ -17,6 +15,7 @@
         </div>
         <div class="col-md book-text">
             <?php the_field('book_description') ?>
+
             <?php 
             $text = get_field('awards_text');
             if( $text ): ?>
@@ -26,11 +25,21 @@
                 <?php the_field('awards_text') ?>
             </div>
             <?php endif; ?>
+
+            <div class="buy-now-links">
+                <a class="btn dwn-button" href="<?php the_field( 'goodreads')?>">
+                    <i class="fab fa-goodreads dwn-icon icon-l"></i>
+                    Goodreads
+                </a>
+                <a class="btn dwn-button" href="<?php the_field( 'amazon')?>">
+                    <i class="fab fa-amazon dwn-icon icon-l"></i>
+                    Amazon
+                </a>
+            </div>
+
         </div>
     </div>
-    <div class="row">
-        <?php the_field('goodreads') ?>
-    </div>
+
 
     <div class="row buffer">
         <?php 
