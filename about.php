@@ -13,9 +13,7 @@
             </p>
         </div>
         <div class="col-md">
-            <h3 class="twitter-header">
-                <?php the_field('twitter_field'); ?>
-            </h3>
+
             <div class="twitter-body">
                 <a class="twitter-timeline" data-height="600" data-theme="light" href="https://twitter.com/rkdelaney?ref_src=twsrc%5Etfw">Tweets by Rachelle</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

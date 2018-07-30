@@ -26,8 +26,6 @@ Tags:
   text-align: center;
 }
 
-
-
 .show {
   transition: all 0.5s;
   margin-top: 0 !important;
@@ -86,6 +84,7 @@ a:visited {
 .flex {
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
 }
 .buffer {
   padding-top: 40px;

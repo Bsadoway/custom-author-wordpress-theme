@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row in-person-header">
-        <h1 class="">In Person</h1>
+        <h1 class="">Author Visits</h1>
     </div>
     <div class="white-bg padding-50">
         <div class="row">
@@ -37,7 +37,6 @@
         </div>
         <div class="col-sm">
             <div class="testimonial-container">
-
                 <div class="testimonial">
                     <div class="testimonial-content">
                         <div class="testimonial-icon">
