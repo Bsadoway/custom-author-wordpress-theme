@@ -7,7 +7,7 @@ License URI: license.txt
 Tags: 
 -------------------------------------------------------------- */
 
-/*Bbook page colours */
+/* Book page colours */
 
 .salmon {
   color: #fb897b !important;
@@ -25,6 +25,7 @@ Tags:
 .salmon-icon::before{
   border-bottom-color: #fb897b !important;
 }
+
 .blue {
   color: #0b4c90 !important;
 }
@@ -40,6 +41,40 @@ Tags:
 
 .blue-icon::before{
   border-bottom-color: #0b4c90 !important;
+}
+
+.green {
+  color: #143739 !important;
+}
+
+.green-bg {
+  background: #143739 !important;
+  border: 1px solid #060f10!important;
+}
+
+.green-icon{
+  background: #143739 !important;
+}
+
+.green-icon::before{
+  border-bottom-color: #143739 !important;
+}
+
+.orange {
+  color: #e5b271 !important;
+}
+
+.orange-bg {
+  background: #e5b271 !important;
+  border: 1px solid #a58255!important;
+}
+
+.orange-icon{
+  background: #e5b271 !important;
+}
+
+.orange-icon::before{
+  border-bottom-color: #e5b271 !important;
 }
 
 
