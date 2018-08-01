@@ -95,6 +95,10 @@ Tags:
   justify-content: center;
 }
 
+.nav-logo img {
+  width: 50%;
+}
+
 .nav-link {
   text-align: center;
 }
@@ -147,6 +151,10 @@ a:visited {
   }
   .main-nav-item:hover {
     background-size: 100% 2px, auto;
+  }
+
+  .nav-logo {
+    justify-content: normal;
   }
 }
 

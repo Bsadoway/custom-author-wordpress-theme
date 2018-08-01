@@ -2,7 +2,7 @@
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light">
 		<a class="nav-logo" href="/">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/rachelle-logo.png" alt="" />
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Rachelle-logo-2018.png" alt="" />
 		</a>
 			<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 			    aria-expanded="false" aria-label="Toggle navigation">
