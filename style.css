@@ -6,6 +6,43 @@ License:
 License URI: license.txt
 Tags: 
 -------------------------------------------------------------- */
+
+/*Bbook page colours */
+
+.salmon {
+  color: #fb897b !important;
+}
+
+.salmon-bg {
+  background: #fb897b !important;
+  border: 1px solid #fa5c47!important;
+}
+
+.salmon-icon{
+  background: #fb897b !important;
+}
+
+.salmon-icon::before{
+  border-bottom-color: #fb897b !important;
+}
+.blue {
+  color: #0b4c90 !important;
+}
+
+.blue-bg {
+  background: #0b4c90 !important;
+  border: 1px solid #093059!important;
+}
+
+.blue-icon{
+  background: #0b4c90 !important;
+}
+
+.blue-icon::before{
+  border-bottom-color: #0b4c90 !important;
+}
+
+
 /* Navigation */
 
 .nav-container {
@@ -13,6 +50,7 @@ Tags:
   margin-bottom: 30px;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .nav-main {
   text-align: right;
 }
@@ -30,9 +68,11 @@ Tags:
   transition: all 0.5s;
   margin-top: 0 !important;
 }
+
 .nav-push {
   margin-top: 100px;
 }
+
 .main-nav {
   top: 53px;
   justify-content: center;
@@ -64,14 +104,12 @@ a:visited {
 
 @media (min-width: 979px) {
   .main-nav-item {
-    background-image: linear-gradient(#474747, #474747),
-      linear-gradient(rgba(192, 192, 192, 0), rgba(192, 192, 192, 0));
+    background-image: linear-gradient(#474747, #474747), linear-gradient(rgba(192, 192, 192, 0), rgba(192, 192, 192, 0));
     background-size: 0 2px, auto;
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
   }
-
   .main-nav-item:hover {
     background-size: 100% 2px, auto;
   }
@@ -86,10 +124,12 @@ a:visited {
   flex-direction: column;
   align-self: flex-start;
 }
+
 .buffer {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .center-text {
   margin: auto;
   text-align: center;
@@ -103,10 +143,6 @@ a:visited {
 .img-feature {
   margin: auto;
   border: 1px solid #f0f0f0;
-}
-
-.img-padding {
-  padding: 5px;
 }
 
 .p-home {
@@ -126,6 +162,7 @@ a:visited {
 }
 
 /* Other books css */
+
 .other-books-container {
   background-color: rgba(255, 255, 255, 0.7);
   margin: auto;
@@ -150,9 +187,11 @@ a:visited {
 .books-icon {
   max-height: 150px;
 }
+
 .about-container {
   text-align: center;
 }
+
 .about-img {
   width: 233px;
   z-index: 5;
@@ -163,6 +202,7 @@ a:visited {
 .twitter-timeline {
   width: 350px !important;
 }
+
 .twitter-header {
   text-align: center;
 }
@@ -197,6 +237,7 @@ a:visited {
 .buy-now-links a {
   padding: 0 20px;
 }
+
 @media (max-width: 760px) {
   .col-sm img {
     margin: 0 auto;
@@ -211,6 +252,7 @@ a:visited {
 .white-bg {
   background-color: #fff;
 }
+
 .in-person-header,
 .contact-header,
 .about-header,
@@ -229,7 +271,6 @@ a:visited {
   width: 80px;
   content: "";
   border-bottom: 4px solid #fa5c47;
-  
 }
 
 .in-person-text p {
@@ -249,6 +290,7 @@ a:visited {
   border: 1px solid #f0f0f0;
   position: relative;
 }
+
 .testimonial .testimonial-content:after {
   content: "";
   display: inline-block;
@@ -260,6 +302,7 @@ a:visited {
   left: 22px;
   transform: rotate(45deg);
 }
+
 .testimonial-content .testimonial-icon {
   width: 50px;
   height: 45px;
@@ -272,6 +315,7 @@ a:visited {
   top: 37px;
   left: -19px;
 }
+
 .testimonial-content .testimonial-icon:before {
   content: "";
   border-bottom: 16px solid #fb897b;
@@ -280,6 +324,7 @@ a:visited {
   top: -16px;
   left: 1px;
 }
+
 .testimonial .description p {
   font-size: 15px;
   font-style: italic;
@@ -287,6 +332,7 @@ a:visited {
   line-height: 23px;
   margin: 0;
 }
+
 .pad-icon {
   padding-top: 10px;
 }
@@ -308,6 +354,7 @@ a:visited {
 .dwn-button:hover {
   background: #fa5c47;
 }
+
 .dwn-button p {
   padding-left: 10px;
 }
@@ -316,6 +363,7 @@ a:visited {
   padding-right: 10px;
   border-right: 1px solid #fff;
 }
+
 .icon-r {
   padding-left: 10px;
 }
@@ -327,13 +375,12 @@ a:visited {
 .book-img {
   margin-bottom: 20px;
   width: 360px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .book-text {
   padding: 25px;
-
 }
+
 .book-text p {
   font-size: 18px;
 }
@@ -348,14 +395,10 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
+
 .awards-wrapper p {
   font-size: 16px;
   padding-left: 10px;
-}
-
-.awards-icon {
-  color: #fb897b;
-  margin-bottom: 10px;
 }
 
 .footer-row {
@@ -364,11 +407,13 @@ a:visited {
   min-height: 150px;
   background-color: #fff;
 }
+
 .footer-col {
   text-align: center;
   justify-content: center;
   align-content: center;
 }
+
 @media (max-width: 760px) {
   .footer-col {
     text-align: center;
@@ -385,18 +430,13 @@ a:visited {
 @font-face {
   font-family: "Grandma-Bold";
   src: url("type/24DB70_0_0.eot");
-  src: url("type/24DB70_0_0.eot?#iefix") format("embedded-opentype"),
-    url("type/24DB70_0_0.woff") format("woff"),
-    url("type/24DB70_0_0.ttf") format("truetype");
+  src: url("type/24DB70_0_0.eot?#iefix") format("embedded-opentype"), url("type/24DB70_0_0.woff") format("woff"), url("type/24DB70_0_0.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "AsapRegular";
   src: url("type/Asap-Regular-webfont.eot");
-  src: url("type/Asap-Regular-webfont.eot?#iefix") format("embedded-opentype"),
-    url("type/Asap-Regular-webfont.woff") format("woff"),
-    url("type/Asap-Regular-webfont.ttf") format("truetype"),
-    url("type/Asap-Regular-webfont.svg#AsapRegular") format("svg");
+  src: url("type/Asap-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("type/Asap-Regular-webfont.woff") format("woff"), url("type/Asap-Regular-webfont.ttf") format("truetype"), url("type/Asap-Regular-webfont.svg#AsapRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -404,10 +444,7 @@ a:visited {
 @font-face {
   font-family: "AsapItalic";
   src: url("type/Asap-Italic-webfont.eot");
-  src: url("type/Asap-Italic-webfont.eot?#iefix") format("embedded-opentype"),
-    url("type/Asap-Italic-webfont.woff") format("woff"),
-    url("type/Asap-Italic-webfont.ttf") format("truetype"),
-    url("type/Asap-Italic-webfont.svg#AsapItalic") format("svg");
+  src: url("type/Asap-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("type/Asap-Italic-webfont.woff") format("woff"), url("type/Asap-Italic-webfont.ttf") format("truetype"), url("type/Asap-Italic-webfont.svg#AsapItalic") format("svg");
   font-weight: normal;
   font-style: normal;
 }

@@ -1,5 +1,9 @@
 <?php /* Template Name: book-page */ ?>
 <?php get_header(); ?>
+<?php 
+    $colour = get_field_object('colour');
+    $value = $colour['value'];
+?>
 
 <div class="container">
     <div class="book-header row">
@@ -7,7 +11,6 @@
             <?php the_field('book_header') ?>
         </h1>
     </div>
-
     <div class="row">
         <div class="col-md flex">
             <?php $image = get_field('book_image'); ?>
@@ -20,23 +23,23 @@
             $text = get_field('awards_text');
             if( $text ): ?>
             <div class="awards-wrapper">
-                <img class="books-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Bookmark_Red.png" alt="" />
+                <i class="fa-3x fas fa-award <?php echo $value; ?>"></i>
 
                 <?php the_field('awards_text') ?>
             </div>
             <?php endif; ?>
 
             <div class="buy-now-links">
-                <a class="btn dwn-button" href="<?php the_field( 'goodreads')?>">
+                <a class="btn dwn-button <?php echo $value; ?>-bg" href="<?php the_field( 'goodreads')?>">
+                
                     <i class="fab fa-goodreads dwn-icon icon-l"></i>
                     Goodreads
                 </a>
-                <a class="btn dwn-button" href="<?php the_field( 'amazon')?>">
+                <a class="btn dwn-button <?php echo $value; ?>-bg" href="<?php the_field( 'amazon')?>">
                     <i class="fab fa-amazon dwn-icon icon-l"></i>
                     Amazon
                 </a>
             </div>
-
         </div>
     </div>
 
@@ -57,7 +60,7 @@
                     <?php endif; ?>
                     <div class="testimonial">
                         <div class="testimonial-content">
-                            <div class="testimonial-icon">
+                            <div class="testimonial-icon <?php echo $value; ?>-icon">
                                 <i class="fa fa-quote-left pad-icon"></i>
                             </div>
                             <div class="description">
@@ -79,7 +82,7 @@
 
                     <div class="testimonial">
                         <div class="testimonial-content">
-                            <div class="testimonial-icon">
+                            <div class="testimonial-icon <?php echo $value; ?>-icon">
                                 <i class="fa fa-quote-left pad-icon"></i>
                             </div>
                             <div class="description">
