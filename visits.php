@@ -13,7 +13,7 @@
                 <?php $image = get_field('in_person_image'); ?>
                 <img class="img-feature" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
             </div>
-            <div class="col-md white-bg padding-50">
+            <div class="col-md white-bg padding-50 margin-auto">
                 <div class="in-person-text">
                     <?php the_field('in_person_text');?>
                 </div>

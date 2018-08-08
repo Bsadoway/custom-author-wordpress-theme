@@ -10,7 +10,7 @@
         <h1 style="margin: 0;">
             <?php the_field('book_header') ?>
         </h1>
-        <img class="ribbon <?php echo $value; ?>" src="<?php bloginfo('stylesheet_directory'); ?>/images/Ribbon.svg" alt="" />
+        <img class="style-svg ribbon <?php echo $value; ?>" src="<?php bloginfo('stylesheet_directory'); ?>/images/Ribbon.svg" alt="" />
     </div>
     <div class="row">
         <div class="col-md flex">

@@ -13,6 +13,10 @@ Tags:
   color: #fb897b !important;
 }
 
+.salmon path{
+  fill: #fb897b !important;
+}
+
 .salmon-bg {
   background: #fb897b !important;
   border: 1px solid #fa5c47 !important;
@@ -28,6 +32,10 @@ Tags:
 
 .blue {
   color: #0b4c90 !important;
+}
+
+.blue path{
+  fill: #0b4c90 !important;
 }
 
 .blue-bg {
@@ -47,6 +55,10 @@ Tags:
   color: #143739 !important;
 }
 
+.green path{
+  fill: #143739 !important;
+}
+
 .green-bg {
   background: #143739 !important;
   border: 1px solid #060f10 !important;
@@ -60,6 +72,10 @@ Tags:
   border-bottom-color: #143739 !important;
 }
 
+
+.orange path{
+  fill: #e5b271 !important;
+}
 .orange {
   color: #e5b271 !important;
 }
@@ -174,6 +190,10 @@ a:visited {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .buffer {
