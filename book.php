@@ -10,6 +10,7 @@
         <h1 style="margin: 0;">
             <?php the_field('book_header') ?>
         </h1>
+        <img class="ribbon <?php echo $value; ?>" src="<?php bloginfo('stylesheet_directory'); ?>/images/Ribbon.svg" alt="" />
     </div>
     <div class="row">
         <div class="col-md flex">
@@ -18,7 +19,6 @@
         </div>
         <div class="col-md book-text bg-white">
             <?php the_field('book_description') ?>
-
             <?php 
             $text = get_field('awards_text');
             if( $text ): ?>

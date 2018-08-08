@@ -5,10 +5,11 @@
 <div class="container">
     <div class="row in-person-header">
         <h1 class="">Author Visits</h1>
+        <img class="ribbon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Ribbon.svg" alt="" />
     </div>
     <div class="">
         <div class="row">
-            <div class="col-md">
+            <div class="col-md flex-center">
                 <?php $image = get_field('in_person_image'); ?>
                 <img class="img-feature" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
             </div>

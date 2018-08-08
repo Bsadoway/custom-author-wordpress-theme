@@ -4,6 +4,7 @@
 <div class="container">
     <div class="row contact-header">
         <h1 class="text-center">Contact Rachelle</h1>
+        <img class="ribbon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Ribbon.svg" alt="" />
     </div>
     <div class="row center-content">
 

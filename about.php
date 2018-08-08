@@ -3,6 +3,7 @@
 <div class="container">
     <div class="row about-header">
         <h1 class="">About Rachelle</h1>
+        <img class="ribbon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Ribbon.svg" alt="" />        
     </div>
     <div class="row">
         <div class="col-md bg-white padding-50 about-container">
